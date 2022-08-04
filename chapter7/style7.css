@@ -1,0 +1,30 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 400px; /* 高さ300px */
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+ }
+ 
+ .headline {
+  padding: 20px ;
+  font-size: 24px
+ }
+ 
+ main {
+   width: 840px;
+   margin: 50px auto;
+ }
+ .blog {
+   width: 840px;
+   padding-bottom: 30px;
+   border-bottom: 1px solid gray;
+   margin-bottom: 30px;
+ }
